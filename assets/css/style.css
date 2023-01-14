@@ -56,6 +56,7 @@ ul{
     list-style: none;
     margin-left: 0px;
     padding-left: 0px;
+    margin-top: 0px;
 }
 
 li {
@@ -72,12 +73,31 @@ li {
     list-style: none;
 }
 
+.stepN
+{
+    text-transform: uppercase;
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 9px;
+}
+
+.nameStep {
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100px;
+    color: #ffffff;
+    margin-right: 90px;
+   
+}
+
 .stepNumber{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-bottom: 36px;
     background: transparent;
     display: flex;
     align-items: center;
@@ -85,7 +105,7 @@ li {
     color: white;
     border: 2px solid white;
     height: 35px;
-    width: 35px;
+    width: 30px;
     border-radius: 30px;
     list-style: none;
 }
@@ -101,16 +121,18 @@ li {
 }
 
 .title{
+    display: flex;
     margin-top: 0px;
-    font-size: 28px;
+    font-size: 25px;
     color: #212121;
 }
 
 .paragraph {
-    font-size: 16px;
+    display: flex;
+    font-size: 15px;
     margin-top: 16px;
     color: #9699ab;
-    margin-bottom: 44px;
+    margin-bottom: 40px;
 }
 
 .allform-nobutton{
@@ -134,10 +156,15 @@ li {
     border-radius: 0.5em;
 }
 
+input:last-child {
+    margin-bottom: 2px;
+}
+
 .label-name{
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 10px;
     width: 100%;
+    margin-top: 0px;
 }
 
 .hidden {
@@ -157,12 +184,12 @@ li {
     margin-bottom: 0px;
 }
 
-.button{
+.button {
     display: flex;
     justify-content: end;
 }
 
-button{
+button {
     height: 50px;
     background-color: #02295a;
     color: #ffffff;
